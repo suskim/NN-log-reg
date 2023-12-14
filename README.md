@@ -40,8 +40,10 @@ pip install xgboost
 ```
 
 2) train model
+```
 python NNlogreg_train.py --train_df /toydataset/normalized_training_toy_df.csv --train_labels /toydataset/normalized_training_toy_labels.csv --num_epochs 50 --save_dir \toydataset\ --batch_size 4
-
+```
 3) test model
+```
 python NNlogreg_test.py --test_df /toydataset/normalized_testing_toy_df.csv --test_labels /toydataset/normalized_testing_toy_labels.csv --model_path [path_to_saved_model] --batch_size 4
-
+```
