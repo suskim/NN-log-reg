@@ -1,0 +1,21 @@
+name: nnlogreg
+channels:
+  - bioconda
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.8
+  - git
+  - numpy
+  - scipy
+  - scikit-learn
+  - pandas 
+  - matplotlib 
+  - torchvision
+#  - nvidia::cudatoolkit=11.3
+  - pytorch::pytorch
+  - jupyter
+  - pip
+
+  - pip:
+    - tensorboard
